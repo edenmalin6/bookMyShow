@@ -1,0 +1,37 @@
+.movies-page{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    gap: 10px;
+}
+.movies-page h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.movie-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+    padding: 15px;
+    border-radius: 40px;
+    border: solid rgb(102, 49, 49) 2px;
+    padding: 50px;
+}
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+li:hover {
+    color: red;
+}
+.booking-container{
+    padding: 10px;
+}
+.booking-container label{
+    margin-top: 5px;
+}
+.booking-container p{
+    margin-top: 10px;
+}

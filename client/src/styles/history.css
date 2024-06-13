@@ -1,0 +1,21 @@
+.history-page{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    gap: 10px;
+}
+.history-page h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.booking-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+    padding: 15px;
+    border-radius: 40px;
+    border: solid rgb(102, 49, 49) 2px;
+    padding: 50px;
+}
